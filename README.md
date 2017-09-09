@@ -8,8 +8,8 @@ connection to memoryboard by default 2x5 AVR-Prog.-Cable, which pinout is:
 
  Descr | Pin # | Pin # | Descr
 -------|-------|-------|-------
-Descr left | 1 |  2 notch | Descr right
-Descr left | 3 |  4 notch | Descr right
-Descr left | 5 |  6 notch | Descr right
-Descr left | 7 |  8 notch | Descr right
-Descr left | 9 | 10 notch | Descr right
+SI | 1 |  2 notch | CS2
+SCK | 3 |  4 notch | CS1
+SO | 5 |  6 notch | CS0
+- | 7 |  8 notch | -
+GND | 9 | 10 notch | +5V (3V3 Regulator on Board)
